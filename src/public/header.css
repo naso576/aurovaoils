@@ -1,12 +1,13 @@
 /* Styles for the header component */
 header {
-    background-color: #333;
+    background-color: #0f5761;
     color: #fff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 80px;
 }
 header h1 {
     margin: 0;
@@ -43,11 +44,6 @@ header nav ul li a:hover {
     color: #f0a500;
 }
 
-header .menu{
-    
-    padding: 10px;
-    height: 200px;
-}
 
 header .menu-icon {
     display: none;

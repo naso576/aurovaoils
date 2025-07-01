@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'; // Import a CSS file for styling
 import Slide from '../slides/Slide';
 import Accordian from '../accordian/accordian';
+import Grids from '../grid/grids';
 
 const Home: React.FC = () => {
     return (
@@ -24,7 +25,7 @@ const Home: React.FC = () => {
                 Explore Products
             </button>
             <div>
-
+                <Grids />
                 <Accordian />
                 <Slide slides={[]}/>
             </div>
